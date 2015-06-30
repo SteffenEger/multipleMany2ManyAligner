@@ -1,4 +1,4 @@
-# multipleMany2ManyAligner
+# multipleMany2ManyAligner (MM2M)
 
 This program aligns multiple sequences in a monotone many-to-many manner. 
 Programs have been tested on Ubuntu 12.04. They require Python 2.7x.
