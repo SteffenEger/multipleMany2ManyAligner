@@ -1,7 +1,5 @@
 # multipleMany2ManyAligner
 
-Welcome to the multipleMany2ManyAligner wiki!
-
 This program aligns multiple sequences in a monotone many-to-many manner. 
 Programs have been tested on Ubuntu 12.04. They require Python 2.7x.
 
