@@ -26,7 +26,7 @@ There are two aligners:
 
   * (1) multipleAlign_aligner.py
 
-    If you want to align N+1 sequences, you must have N bialigned files, each of the form 
+    If you want to align N+1 sequences, you must have N bi-aligned files, each of the form 
 
     segmented-X-string   segmented-Y-string
 
