@@ -12,7 +12,7 @@ There are two aligners:
 
 ## REQUIREMENTS
 
-  A bi-aligner, that is, an aligner that aligns pairs of strings/sequences. (In actuality, you only need bi-aligned training data)
+  A bi-aligner, that is, an aligner that aligns pairs of strings/sequences. (In actuality, you only need bi-aligned training data.)
 
   Good bi-aligners can be found from e.g.:
 
@@ -32,8 +32,9 @@ There are two aligners:
 
     segmented-X-strings should always be from the same alphabet (e.g. letter words) in all N files
     segmented-Y-strings may be different (e.g. phonetic) representations of the X strings
+    Sequences must be separated by a tab symbol.
 
-    More precisely: if you want to align X Y_1 Y_2 ... Y_N
+    More precisely: if you want to align sequences of the form X Y_1 Y_2 ... Y_N
     then the N files must be as follows: 
 
     File 1: Sequences of type X and Y_1 are bi-aligned
@@ -48,10 +49,12 @@ There are two aligners:
 
     The N different files do NOT need to have identical (number of) X-strings.
 
-    Subsequence separators are "-". If two symbols are matched-up in an alignment, 
-    this is indicated by a "|" symbol. 
+    Segment separators are, by default, "-". 
+    Character separators are, by default, "|". 
 
-    INPUT DATA: See e.g. sampleData/matchedup_3.data 
+    INPUT DATA: 
+    	  See e.g. sampleData/matchedup_3.data 
+	  Note: Input sequences must be separated by a tab symbol.
 
   * (2) multipleAlign_aligner_segmenter.py
 
@@ -94,7 +97,7 @@ There are two aligners:
 
 
 Have fun!
-Steffen Eger, 06/21/2015
+Steffen Eger, 07/04/2015
 
 steffen.eger@yahoo.com
 
