@@ -77,7 +77,7 @@ There are two aligners:
 
         python multipleAlign_aligner.py sampleData/wiki_ga.bialigned sampleData/wiki_rp.bialigned sampleData/pte_ga.bialigned < sampleData/matchedup.data 
 
-  If you want to modify settings, you can do so in settings.txt
+  If you want to modify settings, you can do so in **settings.txt**
 
 
   * (2) multipleAlign_segmenter.py: 
